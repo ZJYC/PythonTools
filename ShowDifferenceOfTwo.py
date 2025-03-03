@@ -16,5 +16,4 @@ def ShowDiff(S1 = set(),S2 = set()):
     PrintSet(S2 - S1)
     print("<<<<<<<<<<<<<<<<<<<<<S1 & S2>>>>>>>>>>>>>>>>>>>>")
     PrintSet(S1 & S2)
-
 ShowDiff(ReadFileBySet("1.txt"),ReadFileBySet("2.txt"))
